@@ -1,0 +1,2 @@
+module harbour.hud.dbus
+plugin hudDBus ../../../
