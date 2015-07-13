@@ -1,0 +1,42 @@
+# Rename this file as harbour-hud.changes to include changelog
+# entries in your RPM file.
+#
+# Add new changelog entries following the format below.
+# Add newest entries to the top of the list.
+# Separate entries from eachother with a blank line.
+
+* Sun Mar 09 2015 rgrnetalk <> 0.1-9
+- GPS is started using dbus call
+
+* Sun Mar 09 2015 rgrnetalk <> 0.1-8
+- added speedometer
+
+* Sun Mar 09 2015 rgrnetalk <> 0.1-6
+- better alignment on cover
+
+* Sun Mar 09 2015 rgrnetalk <> 0.1-5
+- implemented orientations portrait and inverted landscape
+- more accurate calculation of mph
+- positioning will be based on satellite information only
+- changed unit combobox into button (no menu over speed value)(buttontext is current unit, not unit to get)
+- changed button text normal/ mirrored into flip
+- better lay-out of value (alignment right)
+- Combobox font color deleted (will get better place in later release, I didn't like the menus over the speed value)
+- Value 0 when no satellite info available (instead of -3)
+
+* Sun Feb 09 2015 rgrnetalk <> 0.1-4
+
+* Sun Feb 09 2015 rgrnetalk <> 0.1-3
+- Combobox font color added
+- Font size cover enlarged
+- Removed decimals
+- New icon (many thanks Moth!)
+
+* Sun Feb 09 2015 rgrnetalk <> 0.1-3
+- Button mirrored/ normal added
+
+* Sat Feb 08 2015 rgrnetalk<> 0.0.1-2
+Initial version
+
+
+      
