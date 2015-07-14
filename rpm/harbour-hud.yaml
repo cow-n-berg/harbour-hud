@@ -21,7 +21,7 @@ Builder: qtc5
 # This section specifies build dependencies that are resolved using pkgconfig.
 # This is the preferred way of specifying build dependencies for your package.
 PkgConfigBR:
-  - sailfishapp >= 0.0.10
+  - sailfishapp >= 1.0.2
   - Qt5Core
   - Qt5Positioning
   - Qt5Qml
@@ -40,7 +40,6 @@ PkgBR:
 Requires:
   - sailfishsilica-qt5
   - qt5-qtdeclarative-import-positioning
-  - libsailfishapp-launcher
 
 # All installed files
 Files:

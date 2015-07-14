@@ -22,10 +22,10 @@ TEMPLATE = subdirs
 
 SUBDIRS = src/dbus src
 
-SOURCES += src/harbour-hud.cpp \
-    src/dbus/declarativedbusadaptor.cpp \
-    src/dbus/declarativedbusinterface.cpp \
-    src/dbus/plugin.cpp
+#SOURCES += src/harbour-hud.cpp \
+#    src/dbus/declarativedbusadaptor.cpp \
+#    src/dbus/declarativedbusinterface.cpp \
+#    src/dbus/plugin.cpp
 
 OTHER_FILES += qml/harbour-hud.qml \
     qml/cover/CoverPage.qml \
@@ -50,7 +50,7 @@ OTHER_FILES += qml/harbour-hud.qml \
 # modify the localized app name in the the .desktop file.
 # TRANSLATIONS += translations/harbour-hud-de.ts
 
-HEADERS += \
-    src/dbus/declarativedbusadaptor.h \
-    src/dbus/declarativedbusinterface.h
+#HEADERS += \
+#    src/dbus/declarativedbusadaptor.h \
+#    src/dbus/declarativedbusinterface.h
 
